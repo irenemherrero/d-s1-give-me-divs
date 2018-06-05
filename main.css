@@ -1,0 +1,357 @@
+body{
+  width: 100%;
+  margin:0;
+}
+header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+}
+.div-header1{
+  background-color: #00A193;
+  line-height: 30px;
+  height: 60px;
+  opacity: 0.7;
+
+}
+.nombre-de-grupo{
+  font-family: 'Rubik', serif;
+  font-size: 16px;
+  margin:0;
+  padding: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+
+.div-header2{
+  background-color: #00DBC9;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  opacity: 0.7;
+}
+
+.list-menu{
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  line-height: 0;
+  margin:0;
+
+}
+.list-menu a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Rubik', serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list-item{
+  padding: 20px 10px;
+}
+
+@media all and (min-width:768px) {
+  .div-header1{
+    background-color: #00A193;
+    line-height: 30px;
+    height: 60px;
+    opacity: 0.7;
+    width: 50%;
+    float:left;
+  }
+  .nombre-de-grupo{
+    font-family: 'Rubik', serif;
+    font-size: 16px;
+    margin:0;
+    padding: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 45px;
+
+  }
+
+  .div-header2{
+    background-color: #00A193;
+    font-size: 15px;
+    line-height: 30px;
+    height: 60px;
+    opacity: 0.7;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  .list-menu{
+    list-style: none;
+    text-decoration: none;
+    height: 45px;
+    line-height: 0;
+    margin-right:45px;
+    align-items: center;
+
+  }
+  .list-menu a
+  .list-item{
+    padding: 20px 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Rubik', serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .list-item{
+    padding: 20px 10px;
+  }
+}
+
+/*seccion maria*/
+.foto-cita{
+
+  height: 300px;
+  position: relative;
+
+
+}
+.foto{
+
+  height: 300px;
+  width: 100%;
+}
+
+.citaFuente{
+  width: 80%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:#000000;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left:129%;
+  top:108%;
+  transform: translate(-150%, -150%);
+  padding-top: 10px;
+
+
+}
+
+.equipo {
+
+  padding: 40px 20px 0 20px;
+}
+
+.titulo-equipo {
+  color:#099D8D;
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+
+.parrafo {
+  font-family: 'Open Sans', sans-serif;
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+
+}
+
+.caracteristicas-grupo{
+  background-color: #f1f1f1;
+  padding: 0px 20px 45px 20px;
+
+}
+@media all and (min-width:768px) {
+  .caracteristicas-grupo{
+    background-color:
+    #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+}
+
+@media all and (min-width:768px) {
+  .triangulo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-0%, -100%);
+
+  }
+}
+.triangulo {
+
+  width: 0;
+  height: 0;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+  border-top: 18px solid white;
+  margin: 17px auto;
+  padding: 0;
+}
+
+@media all and (min-width:768px) {
+  .título-f-d {
+    padding-top: 45px;
+    padding-bottom: 15px;
+  }
+}
+.título-f-d {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.texto-fortalezas {
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media all and (min-width:768px) {
+  .debilidades{
+    width: 1500px;
+    padding-left: 30px;
+  }
+}
+.texto-debilidades {
+  color: #54585A;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+/*seccion raquel*/
+.seccion-quienes-somos{
+  margin: auto;
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.titulo-somos{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #099D8D;
+  margin: 30px 0 30px 0;
+}
+.foto-personal{
+
+  margin: auto;
+  margin-top: 30px;
+}
+.img-foto-pequeña{
+  display: block;
+  margin: auto;
+  border: 4px solid #ccc;
+  border-radius: 16px;
+}
+.nombre-apellidos{
+
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+}
+
+.texto-somos{
+  text-align: center;
+  color: #54585A;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.iconos-redes-sociales{
+
+  margin: 15px 0 45px 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.lista-redes-sociales{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.icono-punto{
+
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  transform: translateY(35%);
+  font-size: 20px;
+}
+
+.twitter, .linkedin, .git, .email{
+  padding: 10px 10px;
+  position: relative;
+}
+
+
+.iconos{
+  margin: 0 5px 0 5px;
+  color: #099D8D;
+}
+/*seccion laura*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #54585A;
+}
+.titlefooter {
+  color: #B8B8B9;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+}
+.listfooter {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans semibold', sans-serif;
+  line-height: 30px;
+}
+.listfooter a {
+  color: #54585A;
+  text-decoration: none;
+}
+.list li {
+  margin-bottom: 6px;
+}
+
+
+/*estilos contacto*/
