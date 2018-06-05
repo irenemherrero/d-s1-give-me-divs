@@ -324,11 +324,18 @@ header{
   color: #099D8D;
 }
 /*seccion laura*/
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-top: 1px solid #54585A;
+}
+
+@media all and (min-width:768px){
+  .footer {
+    position: relative;
+}
 }
 .titlefooter {
   color: #B8B8B9;
@@ -336,6 +343,14 @@ header{
   font-family: 'Open Sans', sans-serif;
   margin-top: 30px;
 }
+
+@media all and (min-width:768px){
+  .titlefooter {
+  position: absolute;
+  left: 45px;
+}
+}
+
 .listfooter {
   text-decoration: none;
   list-style: none;
@@ -345,12 +360,34 @@ header{
   font-family: 'Open Sans semibold', sans-serif;
   line-height: 30px;
 }
+@media all and (min-width:768px){
+  .listfooter {
+  position: absolute;
+  right: 45px;
+  text-align: right;
+  margin-top: 25px;
+}
+}
 .listfooter a {
   color: #54585A;
   text-decoration: none;
 }
 .list li {
   margin-bottom: 6px;
+}
+
+.image-footer{
+}
+@media all and (min-width:768px){
+    .image-footer{
+    position: absolute;
+    left: 45px;
+    top: 55px;
+    width: 116px;
+    height:45px;
+    margin-bottom: 60px;
+
+  }
 }
 
 
