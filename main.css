@@ -71,6 +71,7 @@ header{
   .list-menu{
     margin-right:45px;
     align-items: center;
+  }
 
   }
 .list-menu a{
@@ -88,8 +89,8 @@ header{
 
 @media all and (min-width:768px) {
 
-  .list-menu a
-  .list-item{
+
+  .list-item {
     padding: 20px 10px;
   }
 }
@@ -173,7 +174,14 @@ header{
   top:136%;
   transform: translate(-150%, -150%);
   padding-top: 10px;
+}
 
+@media all and (min-width:768px){
+
+  .citaFuente {
+      left:78%;
+      opacity: 0.5;
+  }
 }
 
 .equipo {
