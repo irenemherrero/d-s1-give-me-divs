@@ -104,12 +104,17 @@ header{
 
   height: 300px;
   position: relative;
+  background-color: black;
 
 
 }
 .foto{
 
-  height: 300px;
+  background-image: url("img/foto-grupo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 80px;
+  height: 100%;
   width: 100%;
 }
 
@@ -152,6 +157,34 @@ header{
   line-height: 24px;
   text-align: center;
 }
+/* Maria - media queri 768px */
+
+@media all and (min-width:768px) {
+  .foto-cita{
+    height: 300px;
+    position: relative;
+    background-color: black;
+}
+.foto{
+  background-size: cover;
+
+}
+
+.citaFuente{
+
+  padding-bottom: 20px;
+  width: 50%;
+  left:100%;
+  top:136%;
+  transform: translate(-150%, -150%);
+  padding-top: 10px;
+
+}
+
+.equipo {
+margin-top: 30px;
+}
+/* fin Maria Media queri */
 
  /*Seccion María F.*/
 
