@@ -171,7 +171,7 @@ header{
   text-align: center;
 }
 
- /*Seccion María F.*/
+/*Seccion María F.*/
 
 .caracteristicas-grupo{
   background-color: #f1f1f1;
@@ -188,15 +188,34 @@ header{
   }
 }
 
+@media all and (min-width:1200px) {
+  .caracteristicas-grupo{
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+}
+
 @media all and (min-width:768px) {
   .triangulo{
     position: absolute;
     top: 0;
     left: 366px;
     transform: translate(-0%, -100%);
-
   }
 }
+
+@media all and (min-width:1200px) {
+  .triangulo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-0%, -100%);
+  }
+}
+
 .triangulo {
   width: 0;
   height: 0;
@@ -213,6 +232,13 @@ header{
     padding-bottom: 15px;
   }
 }
+
+@media all and (min-width:1200px) {
+  .título-f-d {
+    margin-top: 0;
+  }
+}
+
 .título-f-d {
   color: #099d8d;
   font-size: 22px;
@@ -225,6 +251,14 @@ header{
 @media all and (min-width:768px) {
   .fortalezas{
     flex-basis: 350px;
+  }
+}
+
+@media all and (min-width:1200px) {
+  .fortalezas{
+    /*margin-left: 19%;*/
+    flex-basis: 70%;
+    margin-left: 12%;
   }
 }
 
@@ -241,6 +275,16 @@ header{
   .debilidades{
     padding-left: 30px;
     flex-basis: 350px;
+  }
+}
+
+@media all and (min-width:1200px) {
+  .debilidades{
+    padding-left: 45px;
+    /*margin-right: 16%;*/
+    flex-basis: 70%;
+    margin-bottom: 65px;
+    margin-right: 8%;
   }
 }
 .texto-debilidades {
@@ -338,7 +382,7 @@ header{
 @media all and (min-width:768px){
   .footer {
     position: relative;
-}
+  }
 }
 .titlefooter {
   color: #B8B8B9;
@@ -349,9 +393,9 @@ header{
 
 @media all and (min-width:768px){
   .titlefooter {
-  position: absolute;
-  left: 45px;
-}
+    position: absolute;
+    left: 45px;
+  }
 }
 
 .listfooter {
@@ -365,11 +409,11 @@ header{
 }
 @media all and (min-width:768px){
   .listfooter {
-  position: absolute;
-  right: 45px;
-  text-align: right;
-  margin-top: 25px;
-}
+    position: absolute;
+    right: 45px;
+    text-align: right;
+    margin-top: 25px;
+  }
 }
 .listfooter a {
   color: #54585A;
@@ -382,7 +426,7 @@ header{
 .image-footer{
 }
 @media all and (min-width:768px){
-    .image-footer{
+  .image-footer{
     position: absolute;
     left: 45px;
     top: 55px;
