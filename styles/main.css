@@ -334,7 +334,7 @@ background-position: 0% 43%;
 @media all and (min-width:1200px) {
   .fortalezas{
     margin-left: 150px;
-
+margin-right: 0;
     flex-basis: 50%;
   }
 }
@@ -361,6 +361,7 @@ background-position: 0% 43%;
     margin-left: 45px;
     flex-basis: 50%;
     margin-bottom: 65px;
+    padding: 0;
 
 
   }
