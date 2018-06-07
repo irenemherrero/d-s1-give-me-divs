@@ -576,3 +576,17 @@ header{
 
 
 /*estilos contacto*/
+
+.formulario{
+ display: flex;
+ flex-direction: column;
+}
+.titulo-contacto{
+ padding: 0;
+ margin-top: 30px;
+ margin-bottom: 15px;
+}
+
+.parrafo-contacto2{
+ margin-bottom: 0px;
+}
