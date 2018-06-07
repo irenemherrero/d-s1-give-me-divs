@@ -333,9 +333,9 @@ background-position: 0% 43%;
 
 @media all and (min-width:1200px) {
   .fortalezas{
-    /*margin-left: 19%;*/
-    flex-basis: 70%;
-    margin-left: 12%;
+    margin-left: 150px;
+
+    flex-basis: 50%;
   }
 }
 
@@ -357,11 +357,12 @@ background-position: 0% 43%;
 
 @media all and (min-width:1200px) {
   .debilidades{
-    padding-left: 45px;
-    /*margin-right: 16%;*/
-    flex-basis: 70%;
+  margin-right: 150px;
+    margin-left: 45px;
+    flex-basis: 50%;
     margin-bottom: 65px;
-    margin-right: 8%;
+
+
   }
 }
 .texto-debilidades {
