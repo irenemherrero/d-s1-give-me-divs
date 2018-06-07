@@ -76,6 +76,7 @@ header{
   .list-menu{
     margin-right:45px;
     align-items: center;
+
   }
 }
 .list-menu a{
@@ -93,8 +94,8 @@ header{
 
 @media all and (min-width:768px) {
 
-  .list-menu a
-  .list-item{
+
+  .list-item {
     padding: 20px 10px;
   }
 }
