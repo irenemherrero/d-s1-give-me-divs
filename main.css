@@ -101,18 +101,30 @@ header{
 }
 
 /*seccion maria*/
-.foto-cita{
+/*seccion maria*/
+.top {
+  height: 104px;
 
-  height: 300px;
+}
+.foto-cita{
+  background-color: black;
+
+  height: 156px;
   position: relative;
 
+}
+.container-foto{
+
+  background: url("img/foto-grupo.png") no-repeat center center;
+   background-size: contain;
+   min-width: 100%;
+   height: 156px;
+   min-width: 320px;
+   min-height: 200px
+   position: relative;
 
 }
-.foto{
 
-  height: 300px;
-  width: 100%;
-}
 
 .citaFuente{
   width: 80%;
@@ -124,7 +136,7 @@ header{
   background-color: white;
   position: absolute;
   left:129%;
-  top:108%;
+  top:122%;
   transform: translate(-150%, -150%);
   padding-top: 10px;
 
@@ -133,7 +145,7 @@ header{
 
 .equipo {
 
-  padding: 40px 20px 0 20px;
+  padding: 41px 20px 0 20px;
 }
 
 .titulo-equipo {
@@ -152,7 +164,67 @@ header{
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+
+
 }
+
+/* medias MariaV  tablet*/
+@media all and (min-width:768px){
+
+  .top {
+    height: 61px;
+
+  }
+
+  .container-foto {
+    height: 350px;
+
+    width: 100%;
+    background-size: cover;
+
+  }
+
+
+
+  .citaFuente {
+    opacity: 0.5;
+    width: 40%;
+    top:234%;
+    left: 62%;
+    font-weight: bold;
+
+ }
+ .main-container{
+   margin-top: 158px;
+ }
+}
+/* medias MariaV  desktop*/
+@media all and (min-width:1200px){
+  .top {
+    height: 60px;
+  }
+
+  .container-foto {
+
+background-position: 0% 43%;
+
+  }
+
+
+
+  .citaFuente {
+  font-size: 24px;
+  font-weight: bold;
+  top:236%;
+
+
+ }
+ .equipo{
+   margin: 0 150px;
+
+ }
+}
+
 
 /*Seccion María F.*/
 
