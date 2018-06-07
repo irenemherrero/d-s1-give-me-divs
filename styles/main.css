@@ -115,7 +115,7 @@ header{
 }
 .container-foto{
 
-  background: url("img/foto-grupo.png") no-repeat center center;
+  background: url("../img/foto-grupo.png") no-repeat center center;
    background-size: cover;
    min-width: 100%;
    height: 156px;
