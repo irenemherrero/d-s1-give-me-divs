@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="html-contacto">
 <head>
 
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <title>Contacto</title>
 </head>
-<body>
+<body class="body-contacto">
 
   <header class="header">
 
@@ -32,78 +32,64 @@
     </div>
   </header>
 
-  <section>
-    <div class="foto">
-      <img class="foto" src="https://pixnio.com/free-images/2017/03/25/2017-03-25-09-30-33-725x483.jpg" alt="imagen de hombre con tablet">
-    </div>
-  </section>
+  <section class="hero-contacto">
+    <div class= "container-foto-contacto">
+      <div>
+      </section>
 
-  <section>
-    <div class="contacto">
+      <div class="container-contacto">
+        <h1 class="titulo-contacto">CONTACTO<h1>
+          <p class="parrafo-contacto"> Si quieres ponerte en contacto con nosotras, rellena este formulario
+          </p>
+          <p class="parrafo-contacto2"> Todos los campos marcados con <span class="asterisco"> * </span> son obligatorios
+          </p>
+
+          <form class="formulario" action method="post">
+            <div class="label-asterisco">
+              <label class="label-campo-nombre label" for="nombre"> Nombre completo </label>
+              <span class="asterisco"> * </span>
+            </div>
+            <input class="input-campo-g input" type="text" name="nombre" placeholder="Nombre..." id="nombre" required>
+
+            <div class="label-asterisco">
+              <label class="label-campo-email label" for="email">Email</label>
+              <span class="asterisco"> * </span>
+            </div>
+            <input class="input-campo-g input" type="email" name="email" placeholder="nombre.apellidos@mail.com" id="email" required>
+
+            <div>
+              <label class="label-campo-telefono label" for="telefono">Teléfono</label>
+            </div>
+            <input class="input-campo-g input" id="telefono" type="text" name="telefono" placeholder="Ej: 123456789">
+
+            <div class="label-asterisco">
+              <label class="label-campo-mensaje label" for="mensaje">Mensaje</label>
+              <span class="asterisco"> * </span>
+            </div>
+            <textarea class="campo-texto-mensaje input" name="mensaje"> ¿Qué necesitas? </textarea>
 
 
-      <h1 class="titulo-contacto">CONTACTO<h1>
+            <div class="boton">
+              <input href="#" type="submit" class="boton-enviar" value="ENVIAR">
+            </div>
+          </div>
+        </form>
 
-        <p class="parrafo-contacto"> Si quieres ponerte en contacto con nosotras, rellena este formulario
-        </p>
-        <p class="parrafo-contacto2"> Todos los campos marcados con <span class="asterisco"> * </span> son obligatorios
-        </p>
-      </div>
-
-
-
-      <form class="formulario" action method="post">
-
-        <div class="label-asterisco">
-          <label class="label-campo-nombre label" for="nombre"> Nombre completo </label>
-          <abbr title="required"> * </abbr>
+        <footer class="footer">
+          <div class="titlefooter">give me &ltdivs>! © 2018</div>
+          <nav>
+            <ul class="listfooter">
+              <li><a href="#">EQUIPO</a></li>
+              <li><a href="#">QUIÉNES SOMOS</a></li>
+              <li><a href="#">CONTACTO</a></li>
+            </ul>
+          </nav>
+          <a  href="http://adalab.es/"class="image">
+            <img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBuE_3vmgBvgJcAyIkl%2F-LBuEe1b5jg1tqV432Pp%2F-LBuFLiXd7zIvAosymfa%2Fadalab_brand.png?generation=1525690757731800&alt=media" alt="logo de adalab">
+          </a>
         </div>
-        <input class="input-campo-g input" type="text" name="nombre" placeholder="Nombre..." id="nombre" required>
 
-        <div class="label-asterisco">
-          <label class="label-campo-email label" for="email">Email</label>
-          <abbr title="required"> * </abbr>
-        </div>
-        <input class="input-campo-g input" type="email" name="email" placeholder="nombre.apellidos@mail.com" id="email" required>
+      </footer>
 
-        <div>
-          <label class="label-campo-telefono label" for="telefono">Teléfono</label>
-        </div>
-        <input class="input-campo-g input" id="telefono" type="text" name="telefono" placeholder="Ej: 123456789">
-
-        <div class="label-asterisco">
-          <label class="label-campo-mensaje label" for="mensaje">Mensaje</label>
-          <abbr title="required"> * </abbr>
-        </div>
-        <textarea class="campo-texto-mensaje input" name="mensaje"> ¿Qué necesitas? </textarea>
-
-
-        <div class="boton">
-          <input href="#" type="submit" class="boton-enviar" value="ENVIAR">
-        </div>
-
-      </form>
-
-    </section>
-
-
-  </section>
-
-
-
-  <footer class="footer">
-    <div class="titlefooter">give me &ltdivs>! © 2018</div>
-    <nav>
-      <ul class="listfooter">
-        <li><a href="#">EQUIPO</a></li>
-        <li><a href="#">QUIÉNES SOMOS</a></li>
-        <li><a href="#">CONTACTO</a></li>
-      </ul>
-    </nav>
-    <a  href="http://adalab.es/"class="image">
-      <img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBuE_3vmgBvgJcAyIkl%2F-LBuEe1b5jg1tqV432Pp%2F-LBuFLiXd7zIvAosymfa%2Fadalab_brand.png?generation=1525690757731800&alt=media" alt="logo de adalab">
-    </a>
-  </footer>
-
-</body>
-</html>
+    </body>
+    </html>
