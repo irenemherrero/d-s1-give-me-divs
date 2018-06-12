@@ -34,11 +34,11 @@
 
   <section>
     <div class="foto">
-      <img class="foto" src="https://pixnio.com/free-images/2017/03/25/2017-03-25-09-30-33-725x483.jpg" alt="imagen de hombre con tablet">
+      <img class="foto" src="" alt="imagen de hombre con tablet">
     </div>
   </section>
 
-  <section>
+  <section class="seccion-formulario">
        <div class="contacto">
 
 
@@ -58,18 +58,20 @@
          <label class="label-campo-nombre" for="nombre"> Nombre completo </label>
          <abbr title="required"> * </abbr>
        </div>
-       <input class="input-campo-g" type="text" name="nombre" placeholder="Nombre..." id="nombre" required>
+       <input class="input-campo-g input" type="text" name="nombre" placeholder="Nombre..." id="nombre" required>
 
-       <div class="label-asterisco">
+       <div class="email">
          <label class="label-campo-email" for="email">Email</label>
          <abbr title="required"> * </abbr>
+         <input class="input-campo-g input" type="email" name="email" placeholder="nombre.apellidos@mail.com" id="email" required>
        </div>
-       <input class="input-campo-g" type="email" name="email" placeholder="nombre.apellidos@mail.com" id="email" required>
 
-       <div>
+
+       <div class="telefono">
          <label class="label-campo-telefono" for="telefono">Teléfono</label>
+
+       <input class="input-campo-g input" id="telefono" type="text" name="telefono" placeholder="Ej: 123456789">
        </div>
-       <input class="input-campo-g" id="telefono" type="text" name="telefono" placeholder="Ej: 123456789">
 
        <div class="label-asterisco">
          <label class="label-campo-mensaje" for="mensaje">Mensaje</label>
@@ -78,13 +80,13 @@
        <textarea class="campo-texto-mensaje" name="mensaje"> Mensaje </textarea>
 
 
-       <div class="boton-cancelar">
+       <div class="boton">
          <input href="#" type="submit" class="boton-enviar" value="ENVIAR">
        </div>
 
      </form>
 
-     <button class=button> ENVIAR </button>
+
    </section>
 
 
