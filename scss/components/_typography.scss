@@ -1,0 +1,64 @@
+
+.nombre-de-grupo {
+  color: $color-fontheader;
+  font-family: $font-family1;
+  font-weight: 500;
+  font-size: $general-size;
+}
+
+.list-item {
+  color: $color-fontheader;
+  font-family: $font-family1;
+  font-weight: 500;
+  font-size: $menu-header-size;
+}
+
+.citaFuente {
+  color: $color-negro;
+  font-family: $font-family2;
+  font-weight: 600;
+}
+
+/* acordarse de añadir font size a la clase normal */
+
+.titulos {
+  color: $color-titulosyredes;
+  font-family: $font-family1;
+  font-weight: 500;
+  font-size: $claim-titles-size;
+}
+
+.parrafo-fonts {
+  color: $color-texto;
+  font-family: $font-family2;
+  font-weight: 400;
+  font-size: $general-size;
+}
+
+.titulo-secundario {
+  color: $color-titulosyredes;
+  font-family: $font-family1;
+  font-weight: 500;
+  font-size: $fort-deb-size;
+}
+
+.nombres {
+  color: $color-negro;
+  font-family: $font-family2;
+  font-weight: 400;
+  font-size: $nombre-miembros;
+}
+
+.titlefooter {
+  color: $color-grisclaro-footer;
+  font-family: $font-family2;
+  font-weight: 400;
+  font-size: $footer-size;
+}
+
+.listfooter {
+  color: $color-texto;
+  font-family: $font-family1;
+  font-weight: 400;
+  font-size: $footer-size;
+}
