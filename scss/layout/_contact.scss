@@ -1,0 +1,214 @@
+
+.container-contacto {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion-formulario {
+  margin: 0 15px 0 15px;
+}
+
+@media all and (min-width: 768px) {
+  .seccion-formulario {
+    width: 442px;
+    margin: auto;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .seccion-formulario {
+    width: 601px;
+    margin: auto;
+  }
+}
+
+.hero-contacto {
+  width: 100%;
+  margin: 0;
+}
+
+.container-foto-contacto {
+  background: url("../images/imagen_contacto.jpg") no-repeat center center;
+  background-size: cover;
+  min-width: 100%;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+@media all and (min-width: 1200px) {
+  .container-foto-contacto {
+    height: 400px;
+  }
+}
+
+.titulo-contacto {
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .titulo-contacto {
+    margin-top: 45px;
+  }
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+@media all and (min-width: 1200px) {
+  .formulario {
+    width: 60vw;
+    margin-bottom: 150px;
+  }
+}
+
+// parrafo
+
+.madre-parrafo-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parrafo-contacto {
+  line-height: 24px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .parrafo-contacto {
+    width: 442px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .parrafo-contacto {
+    width: 601px;
+  }
+}
+
+.parrafo-contacto2 {
+  line-height: 24px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .parrafo-contacto2 {
+    width: 442px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .parrafo-contacto2 {
+    width: 601px;
+  }
+}
+
+/* formulario */
+
+.madre-mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.madre-telf {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 1200px) {
+  .input-mail, .input-telf {
+    width: 100%;
+    height: 30px;
+  }
+
+  .label-mail, .label-telf {
+    line-height: 19px;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .madre-mail {
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .madre-telf {
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .madre-telf-mail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.label {
+  line-height: 19px;
+  margin: 10px 0;
+}
+
+.asterisco {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #099d8d;
+}
+
+.input {
+  margin: 10px 0;
+}
+
+.input-name {
+  line-height: 22px;
+  height: 45px;
+}
+
+.input-mensaje {
+  height: 105px;
+  margin-bottom: 30px;
+}
+
+.input-mail {
+  height: 30px;
+}
+
+.input-telf {
+  height: 30px;
+}
+
+.boton-enviar {
+  line-height: 22px;
+  background-color: #00a193;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+@media all and (min-width: 1200px) {
+  .boton-enviar {
+    width: 40%;
+    align-self: flex-end;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .formulario {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

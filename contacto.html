@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans" rel="stylesheet" type="css">
-  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <meta charset="utf-8">
   <title>Contacto</title>
 </head>
@@ -13,7 +13,7 @@
 
   <header class="header">
 
-    <!-- Primer bloque -->
+    <!-- Primer bloque --
 
     <div class="div-header1">
       <h1 class= "nombre-de-grupo">give me &ltdivs>!</h1>
@@ -39,8 +39,8 @@
   <!-- contacto-texto -->
 <div class="madre-parrafo-formulario">
       <div class="container-contacto">
-        <h1 class="titulo-contacto">CONTACTO</h1>
-          <p class="parrafo-contacto"> Si quieres ponerte en contacto con nosotras, rellena este formulario
+        <h1 class="titulo-contacto titulos">CONTACTO</h1>
+          <p class="parrafo-contacto parrafo-fonts"> Si quieres ponerte en contacto con nosotras, rellena este formulario
           </p>
           <p class="parrafo-contacto2"> Todos los campos marcados con <span class="asterisco"> * </span> son obligatorios
           </p>
@@ -49,44 +49,40 @@
 
           <form class="formulario" action method="post">
 
-             <label class="label" for="nombre"> Nombre completo  <span class="asterisco"> * </span> </label>
+             <label class="label lab" for="nombre"> Nombre completo  <span class="asterisco"> * </span> </label>
 
             <input class=" input input-name" type="text" name="nombre" placeholder="Nombre..." id="nombre" required>
             <div class="madre-telf-mail">
             <div class="madre-mail">
-              <label class=" label-mail" for="email">Email<span class="asterisco"> * </span></label>
+              <label class=" label-mail lab" for="email">Email<span class="asterisco"> * </span></label>
               <input class="input input-mail" type="email" name="email" placeholder="nombre.apellidos@mail.com" id="email" required>
              </div>
 
              <div class="madre-telf">
-              <label class=" label-telf" for="telefono">Teléfono</label>
+              <label class=" label-telf lab" for="telefono">Teléfono</label>
             <input class="input input-telf" id="telefono" type="text" name="telefono" placeholder="Ej: 123456789">
           </div>
         </div>
-              <label class="label" for="mensaje">Mensaje<span class="asterisco"> * </span></label>
+              <label class="label lab" for="mensaje">Mensaje<span class="asterisco"> * </span></label>
               <textarea class="input input-mensaje" name="mensaje"> ¿Qué necesitas? </textarea>
 
-              <input href="#" type="submit" class="boton-enviar" value="ENVIAR">
+              <input href="#" type="submit" class="boton-enviar botonenviar" value="ENVIAR">
 
        </form>
 </div>
-        <footer class="footer2">
-        <div class="footer2-text-menu">
-          <div class="titlefooter2">give me &ltdivs>! © 2018</div>
-          <nav>
-            <ul class="listfooter2">
-              <li><a class="menu-item" href="#">EQUIPO</a></li>
-              <li><a class="menu-item" href="#">QUIÉNES SOMOS</a></li>
-              <li><a class="menu-item" href="#">CONTACTO</a></li>
-            </ul>
-          </nav>
-           </div>
-          <a href="http://adalab.es/" class="image-footer2">
-            <img class="image-footer-logo" src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBuE_3vmgBvgJcAyIkl%2F-LBuEe1b5jg1tqV432Pp%2F-LBuFLiXd7zIvAosymfa%2Fadalab_brand.png?generation=1525690757731800&alt=media" alt="logo de adalab">
-          </a>
-
-
-      </footer>
+<footer class="footer">
+  <div class="titlefooter">give me &ltdivs>! © 2018</div>
+  <nav>
+    <ul class="listfooter">
+      <li><a href="#">EQUIPO</a></li>
+      <li><a href="#">QUIÉNES SOMOS</a></li>
+      <li><a href="#">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <a href="http://adalab.es/"class="image-footer">
+    <img src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBuE_3vmgBvgJcAyIkl%2F-LBuEe1b5jg1tqV432Pp%2F-LBuFLiXd7zIvAosymfa%2Fadalab_brand.png?generation=1525690757731800&alt=media" alt="logo de adalab">
+  </a>
+</footer>
 
     </body>
     </html>
