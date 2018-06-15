@@ -1,5 +1,4 @@
 body{
-
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -11,25 +10,21 @@ header {
   width: 100%;
 }
 
-<<<<<<< HEAD
-.div-header1{
-=======
-.enlace-home{
+.enlace-home {
   text-decoration: none;
 }
 
 .div-header1 {
->>>>>>> 05916263e3ab1e1de90f79840467524e3096140f
-  background-color: #00A193;
+  background-color: "#00A193";
   line-height: 30px;
   height: 60px;
   opacity: 0.7;
 }
 
-@media all and (min-width:768px) {
-  .div-header1{
+@media all and (min-width: 768px) {
+  .div-header1 {
     width: 50%;
-    float:left;
+    float: left;
   }
 }
 
@@ -714,8 +709,6 @@ anclas
   align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 .seccion-formulario{
   margin: 0 15px 0 15px;
 }
@@ -736,8 +729,6 @@ anclas
   }
 }
 
-
->>>>>>> b02e06ba44e1908d14652f85ba0f46441faa6834
 .hero-contacto{
   width: 100%;
   margin:0;
