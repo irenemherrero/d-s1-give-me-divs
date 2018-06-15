@@ -1,3 +1,5 @@
+@import 'layout/grid';
+
 .seccion-quienes-somos {
   margin: auto;
   padding: 0 20px 0 20px;
@@ -13,10 +15,9 @@
 }
 
 .titulo-somos {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+
   text-align: center;
-  color: #099D8D;
+
   margin: 30px 0 30px 0;
 }
 
@@ -26,67 +27,7 @@
   }
 }
 
-@media all and (min-width:768px){
-  .wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
-  }
 
-  .item1{
-      grid-column-start: 1;
-      grid-column-end: 1;
-  }
-
-  .item2{
-        grid-column-start: 2;
-        grid-column-end: 4;
-  }
-
-  .item4{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-  }
-
-  .item6{
-    grid-column-start: 2;
-    grid-column-end: 4;
-  }
-
-  .item8{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-  }
-
-  .item10{
-    grid-column-start: 2;
-    grid-column-end: 4;
-  }
-
-}
-
-@media all and (min-width:1200px){
-
-  .item4{
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .item8{
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .item9{
-    margin-bottom: 60px;
-  }
-  .width-desktop{
-    width: 439px;
-  }
-
-}
 
 .foto-personal {
   margin: auto;
@@ -128,7 +69,6 @@
 
 .nombre-apellidos {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
   margin-top: 15px;
 }
 
@@ -145,9 +85,7 @@
 
 .texto-somos {
   text-align: center;
-  color: #54585A;
   line-height: 24px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 @media all and (min-width:768px){
@@ -223,10 +161,10 @@
 
 }
 .fa-envelope:hover{
-  color: #00DBC9;
+  color: $color-header2;
 }
 
 .iconos {
   margin: 0 5px 0 5px;
-  color: #099D8D;
+  color: $color-titulosyredes;
 }
