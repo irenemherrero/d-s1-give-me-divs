@@ -1,3 +1,69 @@
+@charset "UTF-8";
 
+body {
+  background-color: orange;
+}/*colores de fondos*//* colores de fuentes*//*font family*/.nombre-de-grupo {
+  color: #ffffff;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.list-item {
+  color: #ffffff;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.citaFuente {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}/* acordarse de añadir font size a la clase normal */.titulos {
+  color: #099d8d;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.parrafo-fonts {
+  color: #54585A;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.titulo-secundario {
+  color: #099d8d;
+  font-family: "Rubik", serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.nombres {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.titlefooter {
+  color: #B8B8B9;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.listfooter {
+  color: #54585A;
+  font-family: "Rubik", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body {
+  background-color: pink;
+}
 
 /*# sourceMappingURL=main.css.map */
