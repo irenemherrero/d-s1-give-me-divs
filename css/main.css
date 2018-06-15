@@ -1,4 +1,5 @@
-@charset "UTF-8";/*colores de fondos*//* colores de fuentes*//*colores hover de iconos redes sociales*//*font family*/.nombre-de-grupo {
+@charset "UTF-8";/*colores de fondos*//* colores de fuentes*//*colores hover de iconos redes sociales*//*font family*/
+.nombre-de-grupo {
   color: #ffffff;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -16,7 +17,10 @@
   color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-}/* acordarse de añadir font size a la clase normal */.titulos {
+}
+
+/* acordarse de añadir font size a la clase normal */
+.titulos {
   color: #099d8d;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -58,11 +62,6 @@
   font-size: 14px;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
 
 .seccion-quienes-somos {
   margin: auto;

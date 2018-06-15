@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 
+=======
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+>>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
 
 header {
   position: fixed;
@@ -6,22 +14,30 @@ header {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .enlace-home{
+=======
+.enlace-home {
+>>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
   text-decoration: none;
 }
 
 .div-header1 {
+<<<<<<< HEAD
 
   background-color: #00A193;
+=======
+  background-color: "#00A193";
+>>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
   line-height: 30px;
   height: 60px;
   opacity: 0.7;
 }
 
-@media all and (min-width:768px) {
-  .div-header1{
+@media all and (min-width: 768px) {
+  .div-header1 {
     width: 50%;
-    float:left;
+    float: left;
   }
 }
 
@@ -473,7 +489,10 @@ anclas
   align-items: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
 .seccion-formulario{
   margin: 0 15px 0 15px;
 }
@@ -494,7 +513,10 @@ anclas
   }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
 .hero-contacto{
   width: 100%;
   margin:0;
