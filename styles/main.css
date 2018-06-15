@@ -676,28 +676,6 @@ header{
   margin:0;
 }
 
-<<<<<<< HEAD
-.seccion-formulario{
-  margin: 0 15px 0 15px;
-}
-
-@media all and (min-width:768px){
-
-  .seccion-formulario{
-    width: 442px;
-    margin: auto;
-  }
-}
-
-@media all and (min-width:1200px){
-
-  .seccion-formulario{
-    width: 601px;
-    margin: auto;
-  }
-}
-
-=======
 .hero-contacto{
   width: 100%;
   margin:0;
@@ -717,7 +695,6 @@ header{
     height: 400px;
   }
 }
->>>>>>> c931361d1790c83f62d9f6827798bf221a1803c2
 .formulario{
   display: flex;
   flex-direction: column;
