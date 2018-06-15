@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 body {
-  background-color: orange;
-}/*colores de fondos*//* colores de fuentes*//*font family*/.nombre-de-grupo {
+  background-color: pink;
+}
+
+/*colores de fondos*//* colores de fuentes*//*font family*/
+.nombre-de-grupo {
   color: #ffffff;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -20,7 +23,10 @@ body {
   color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-}/* acordarse de añadir font size a la clase normal */.titulos {
+}
+
+/* acordarse de añadir font size a la clase normal */
+.titulos {
   color: #099d8d;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -62,8 +68,5 @@ body {
   font-size: 14px;
 }
 
-body {
-  background-color: pink;
-}
 
 /*# sourceMappingURL=main.css.map */
