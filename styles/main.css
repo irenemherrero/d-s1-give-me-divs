@@ -671,6 +671,8 @@ header{
   align-items: center;
 }
 
+<<<<<<< HEAD
+=======
 .seccion-formulario{
   margin: 0 15px 0 15px;
 }
@@ -692,6 +694,7 @@ header{
 }
 
 
+>>>>>>> b02e06ba44e1908d14652f85ba0f46441faa6834
 .hero-contacto{
   width: 100%;
   margin:0;
