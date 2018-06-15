@@ -14,6 +14,9 @@ header{
   width: 100%;
 }
 
+.enlace-home{
+  text-decoration: none;
+}
 
 .div-header1{
   background-color: #00A193;
@@ -223,6 +226,27 @@ header{
     margin-top: 158px;
   }
 }
+
+/*
+anclas
+*/
+.ancla{
+
+
+   position: relative;
+   top: -105px;
+   visibility: hidden;
+
+}
+
+@media all and (min-width:768px){
+  .ancla{
+    top: -45px;
+  }
+}
+
+
+
 /* medias MariaV  desktop*/
 @media all and (min-width:1200px){
   .top {
@@ -593,6 +617,19 @@ header{
   }
 }
 
+.fa-twitter:hover{
+  color: #1da1f2;
+}
+.fa-linkedin-in:hover{
+  color: #0073b1;
+}
+.fa-github-alt:hover{
+  color:#24292e;
+
+}
+.fa-envelope:hover{
+  color: #00DBC9;
+}
 
 .iconos {
   margin: 0 5px 0 5px;
