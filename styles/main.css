@@ -6,11 +6,15 @@ header {
   width: 100%;
 }
 
+<<<<<<< HEAD
+.div-header1{
+=======
 .enlace-home{
   text-decoration: none;
 }
 
 .div-header1 {
+>>>>>>> 05916263e3ab1e1de90f79840467524e3096140f
   background-color: #00A193;
   line-height: 30px;
   height: 60px;
