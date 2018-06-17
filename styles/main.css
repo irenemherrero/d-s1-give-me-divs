@@ -125,22 +125,17 @@ header {
   position: relative;
 }
 
-
-.citaFuente{
+.citaFuente {
   width: 80%;
-  font-family: 'Open Sans',sans-serif;
   font-size: 15px;
-  font-weight: 600;
-  color:#000000;
+  color: $color-super-dark;
   text-align: center;
-  background-color: white;
+  background-color: $color-light;
   position: absolute;
-  left:129%;
-  top:122%;
+  left: 129%;
+  top: 122%;
   transform: translate(-150%, -150%);
   padding-top: 10px;
-
-
 }
 
 .equipo {
