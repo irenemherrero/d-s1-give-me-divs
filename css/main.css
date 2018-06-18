@@ -401,7 +401,7 @@ a {
 }
 
 .container-foto-contacto {
-  background: url("../../images/foto-contacto.jpeg") no-repeat center center;
+  background: url("../images/foto-contacto.jpeg") no-repeat center center;
   background-size: cover;
   min-width: 100%;
   width: 100%;
