@@ -13,6 +13,12 @@
   }
 }
 
+@media all and (min-width: 1200px) {
+  .footer {
+    position: relative;
+  }
+}
+
 .titlefooter {
   margin-top: 30px;
 }
@@ -25,7 +31,6 @@
 }
 
 .listfooter {
-  color: $color-texto;
   text-decoration: none;
   list-style: none;
   padding: 0;
@@ -44,20 +49,23 @@
 
 .listfooter a {
   text-decoration: none;
+  color: $color-texto;
 }
 
 .list li {
   margin-bottom: 6px;
 }
 
+.image-footer {
+  width: 116px;
+  height: 45px;
+}
 
 @media all and (min-width: 768px) {
   .image-footer {
     position: absolute;
     left: 45px;
     top: 55px;
-    width: 116px;
-    height: 45px;
     margin-bottom: 60px;
   }
 }
