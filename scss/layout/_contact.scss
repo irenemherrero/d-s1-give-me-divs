@@ -29,7 +29,7 @@
 }
 
 .container-foto-contacto {
-  background: url("../img/imagen_contacto.jpg") no-repeat center center;
+  background: url("../images/imagen_contacto.jpg") no-repeat center center;
   background-size: cover;
   min-width: 100%;
   width: 100%;
@@ -143,7 +143,7 @@
     height: 30px;
   }
 
-  .label-mail, .label-telf{
+  .label-mail, .label-telf {
     color: $color-texto;
     line-height: 19px;
     margin: 10px 0;

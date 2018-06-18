@@ -342,7 +342,7 @@ body {
 }
 
 .container-foto-contacto {
-  background: url("../img/imagen_contacto.jpg") no-repeat center center;
+  background: url("../images/imagen_contacto.jpg") no-repeat center center;
   background-size: cover;
   min-width: 100%;
   width: 100%;
