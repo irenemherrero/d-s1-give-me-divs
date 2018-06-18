@@ -356,6 +356,15 @@ body {
   height: 45px;
 }
 
+.image-footer:hover {
+  -webkit-animation-name: logoAnimation;
+  animation-name: logoAnimation;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 .container-contacto {
   width: 80vw;
   display: -webkit-box;
@@ -948,6 +957,18 @@ body {
 
   .div-header2 {
     padding-right: 178px;
+  }
+}
+
+@-webkit-keyframes logoAnimation {
+  from {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+  to {
+    -webkit-transform: translateX(1000%);
+    transform: translateX(1000%);
   }
 }
 
