@@ -152,6 +152,10 @@ a {
   font-weight: 500;
 }
 
+.enlace-menu:hover {
+  color: #000;
+}
+
 .list-item {
   padding: 20px 10px;
 }
@@ -262,6 +266,13 @@ a {
   border: 4px solid #ccc;
   border-radius: 16px;
   width: 180px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.img-foto-pequeña:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .nombre-apellidos {
@@ -357,6 +368,10 @@ a {
 .listfooter a {
   text-decoration: none;
   color: #54585a;
+}
+
+.listfooter a:hover {
+  color: #00DBC9;
 }
 
 .list li {

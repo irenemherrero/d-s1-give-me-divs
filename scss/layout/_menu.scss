@@ -80,6 +80,9 @@
   text-decoration: none;
   list-style: none;
   font-weight: 500;
+  &:hover{
+    color: $color-negro;
+  }
 }
 
 .list-item {

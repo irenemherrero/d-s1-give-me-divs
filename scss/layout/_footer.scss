@@ -50,6 +50,9 @@
 .listfooter a {
   text-decoration: none;
   color: $color-texto;
+  &:hover{
+    color: $color-header2;
+  }
 }
 
 .list li {
