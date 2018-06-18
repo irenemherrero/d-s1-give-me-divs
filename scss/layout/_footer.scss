@@ -62,6 +62,12 @@
 .image-footer {
   width: 116px;
   height: 45px;
+
+  &:hover {
+    animation-name: logoAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
 }
 
 @media all and (min-width: 768px) {

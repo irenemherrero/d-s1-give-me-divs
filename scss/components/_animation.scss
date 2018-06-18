@@ -1,0 +1,9 @@
+@-webkit-keyframes logoAnimation {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(1000%);
+  }
+}
