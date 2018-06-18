@@ -1,122 +1,3 @@
-<<<<<<< HEAD
-
-=======
-body{
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
->>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
-
-header {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-}
-
-<<<<<<< HEAD
-.enlace-home{
-=======
-.enlace-home {
->>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
-  text-decoration: none;
-}
-
-.div-header1 {
-<<<<<<< HEAD
-
-  background-color: #00A193;
-=======
-  background-color: "#00A193";
->>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
-  line-height: 30px;
-  height: 60px;
-  opacity: 0.7;
-}
-
-@media all and (min-width: 768px) {
-  .div-header1 {
-    width: 50%;
-    float: left;
-  }
-}
-
-.nombre-de-grupo{
-  font-family: 'Rubik', serif;
-  font-size: 16px;
-  margin:0;
-  padding: 15px;
-  font-weight: 500;
-  text-align: center;
-  color: #ffffff;
-}
-
-@media all and (min-width:768px) {
-  .nombre-de-grupo{
-    text-align: left;
-    padding-left: 45px;
-  }
-}
-
-.div-header2{
-  background-color: #00DBC9;
-  font-size: 15px;
-  line-height: 30px;
-  display: flex;
-  justify-content: center;
-  height: 45px;
-  opacity: 0.7;
-}
-
-@media all and (min-width:768px){
-  .div-header2{
-    background-color: #00A193;
-    height: 60px;
-    width: 50%;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-.list-menu{
-  list-style: none;
-  padding: 0;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  height: 45px;
-  line-height: 0;
-  margin:0;
-}
-
-@media all and (min-width:768px) {
-
-  .list-menu{
-    margin-right:45px;
-    align-items: center;
-
-  }
-}
-.list-menu a{
-  list-style: none;
-  text-decoration: none;
-  color: #ffffff;
-  font-family: 'Rubik', serif;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.list-item{
-  padding: 20px 10px;
-}
-
-@media all and (min-width:768px) {
-
-
-  .list-item {
-    padding: 20px 10px;
-  }
-}
 
 /* seccion maria */
 .top {
@@ -138,22 +19,17 @@ header {
   position: relative;
 }
 
-
-.citaFuente{
+.citaFuente {
   width: 80%;
-  font-family: 'Open Sans',sans-serif;
   font-size: 15px;
-  font-weight: 600;
-  color:#000000;
+  color: $color-super-dark;
   text-align: center;
-  background-color: white;
+  background-color: $color-light;
   position: absolute;
-  left:129%;
-  top:122%;
+  left: 129%;
+  top: 122%;
   transform: translate(-150%, -150%);
   padding-top: 10px;
-
-
 }
 
 .equipo {
@@ -489,10 +365,6 @@ anclas
   align-items: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
 .seccion-formulario{
   margin: 0 15px 0 15px;
 }
@@ -513,10 +385,6 @@ anclas
   }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 19e260c6ec76791c74329ad24c80886cfe213452
 .hero-contacto{
   width: 100%;
   margin:0;

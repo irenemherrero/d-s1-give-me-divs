@@ -1,0 +1,86 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.div-header1 {
+  background-color: $color-header;
+  line-height: 30px;
+  height: 60px;
+  opacity: 0.7;
+
+  @media all and (min-width: 768px) {
+    width: 50%;
+  }
+
+  @media all and (min-width: 1280px) {
+    padding-left: 178px;
+  }
+}
+
+.nombre-de-grupo {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media all and (min-width: 768px) {
+    text-align: left;
+    padding-left: 45px;
+  }
+}
+
+.div-header2 {
+  background-color: $color-header2;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  opacity: 0.7;
+
+  @media all and (min-width: 768px) {
+    background-color: $color-header;
+    height: 60px;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  @media all and (min-width: 1280px) {
+    padding-right: 178px;
+  }
+}
+
+.list-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  line-height: 0;
+  margin: 0;
+
+  @media all and (min-width: 768px) {
+    margin-right: 45px;
+    align-items: center;
+  }
+}
+
+.enlace-menu {
+  color: $color-fontheader;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.list-item {
+  padding: 20px 10px;
+}

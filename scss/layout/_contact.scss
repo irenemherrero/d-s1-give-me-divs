@@ -1,4 +1,3 @@
-
 .container-contacto {
   width: 80vw;
   display: flex;
@@ -30,18 +29,12 @@
 }
 
 .container-foto-contacto {
-  background: url("../images/imagen_contacto.jpg") no-repeat center center;
+  background: url("../img/imagen_contacto.jpg") no-repeat center center;
   background-size: cover;
   min-width: 100%;
   width: 100%;
   height: 300px;
   position: relative;
-}
-
-@media all and (min-width: 1200px) {
-  .container-foto-contacto {
-    height: 400px;
-  }
 }
 
 .titulo-contacto {
@@ -51,26 +44,40 @@
   text-align: center;
 }
 
-@media all and (min-width: 768px) {
-  .titulo-contacto {
-    margin-top: 45px;
+@media all and (min-width: 1100px) {
+  .container-foto-contacto {
+    height: 400px;
   }
 }
 
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 80vw;
 }
 
-@media all and (min-width: 1200px) {
-  .formulario {
+@media all and (min-width: 768px) {
+  .titulo-contacto {
+    margin-top: 45px;
+  }
+
+  .container-contacto {
     width: 60vw;
-    margin-bottom: 150px;
   }
 }
 
-// parrafo
+@media all and (min-width: 1200px) {
+  .container-foto-contacto {
+    height: 400px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  .titulo-contacto {
+    margin-top: 45px;
+  }
+}
+
+/* parrafo */
 
 .madre-parrafo-formulario {
   display: flex;
@@ -89,7 +96,7 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1100px) {
   .parrafo-contacto {
     width: 601px;
   }
@@ -107,7 +114,7 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1100px) {
   .parrafo-contacto2 {
     width: 601px;
   }
@@ -126,12 +133,18 @@
 }
 
 @media all and (min-width: 1200px) {
+  .formulario {
+    width: 60vw;
+    margin-bottom: 150px;
+  }
+
   .input-mail, .input-telf {
     width: 100%;
     height: 30px;
   }
 
-  .label-mail, .label-telf {
+  .label-mail, .label-telf{
+    color: $color-texto;
     line-height: 19px;
     margin: 10px 0;
     width: 100%;
@@ -157,14 +170,13 @@
 }
 
 .label {
+  color: $color-texto;
   line-height: 19px;
   margin: 10px 0;
 }
 
 .asterisco {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: #099d8d;
+  color: $color-titulosyredes;
 }
 
 .input {
@@ -190,8 +202,9 @@
 }
 
 .boton-enviar {
+  color: $color-fontheader;
   line-height: 22px;
-  background-color: #00a193;
+  background-color: $color-header;
   border: 0;
   border-radius: 5px;
   width: 100%;
@@ -199,7 +212,12 @@
   margin-bottom: 30px;
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
+  .formulario {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .boton-enviar {
     width: 40%;
     align-self: flex-end;

@@ -1,0 +1,100 @@
+.top {
+  width: 100%;
+  position: relative;
+
+  @media all and (min-width: 768px) {
+    .top {
+      height: 61px;
+    }
+  }
+
+  @media all and (min-width: 1200px) {
+    height: 60px;
+  }
+}
+
+.container-foto {
+  background: url("../images/foto-grupo.png") no-repeat center center;
+  background-size: cover;
+  height: 157px;
+  min-height: 200px;
+  position: relative;
+
+  @media all and (min-width: 440px) {
+    .container-foto {
+      height: 200px;
+    }
+  }
+
+  @media all and (min-width: 768px) {
+    height: 350px;
+    width: 100%;
+  }
+
+  @media all and (min-width: 1200px) {
+    background-position: 0% 43%;
+  }
+}
+
+.citaFuente {
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  color: $color-negro;
+  text-align: center;
+  background-color: $color-fontheader;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -115%);
+  padding-top: 10px;
+
+  @media all and (min-width: 768px) {
+    width: 300px;
+    opacity: 0.7;
+    top: 96%;
+    left: 10%;
+    transform: translate(-10%, -96%);
+    padding-top: 10px;
+  }
+
+  @media all and (min-width: 1200px) {
+    height: 40px;
+    width: 400px;
+    top: 369px;
+    top: 100%;
+    left: 10%;
+    transform: translate(-10%, -100%);
+    padding-top: 10px;
+  }
+}
+
+.equipo {
+  position: relative;
+  top: 20px;
+  padding: 30px 20px 20px 20px;
+
+  @media all and (min-width: 440px) {
+    padding: 0 20px 0 20px;
+  }
+
+  @media all and (min-width: 1200px) {
+    min-height: 600px;
+    padding: 0;
+    width: 601px;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+  }
+}
+
+.titulo-equipo {
+  color: $color-titulosyredes;
+  text-align: center;
+}
+
+.parrafo {
+  color: $color-texto;
+  line-height: $line-height-medium;
+  text-align: center;
+}
