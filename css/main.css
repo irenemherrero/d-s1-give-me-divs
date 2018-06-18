@@ -271,8 +271,8 @@ a {
 }
 
 .img-foto-pequeña:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .nombre-apellidos {
