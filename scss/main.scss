@@ -1,4 +1,4 @@
-@import 'core/settings';
+
 @import 'core/variables';
 @import 'components/typography';
 @import 'layout/general';
@@ -8,8 +8,4 @@
 @import 'layout/quienes-somos';
 @import 'layout/footer';
 @import 'layout/contact';
-
-body {
-
-background-color: pink;
-}
+@import 'pages/home';
