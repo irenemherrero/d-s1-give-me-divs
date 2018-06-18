@@ -79,7 +79,7 @@
   }
 
   @media all and (min-width: 1200px) {
-    min-height: 600px;
+    min-height: 500px;
     padding: 0;
     width: 601px;
     top: -10%;
@@ -97,4 +97,8 @@
   color: $color-texto;
   line-height: $line-height-medium;
   text-align: center;
+
+@media all and (min-width: 440px) {
+  padding-bottom: 30px;
+}
 }

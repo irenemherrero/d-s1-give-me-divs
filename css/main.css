@@ -335,6 +335,7 @@ body {
 }
 
 .listfooter {
+  color: #54585a;
   text-decoration: none;
   list-style: none;
   padding: 0;
@@ -397,6 +398,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  width: 80vw;
 }/* parrafo */.madre-parrafo-formulario {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,6 +492,10 @@ body {
   .equipo {
     padding: 0 20px 0 20px;
   }
+
+  .parrafo {
+    padding-bottom: 30px;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -567,9 +573,9 @@ body {
   .triangulo {
     position: absolute;
     top: 0;
-    left: 366px;
-    -webkit-transform: translate(0%, -100%);
-    transform: translate(0%, -100%);
+    left: 50%;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
   }
 
   .título-f-d {
@@ -783,7 +789,7 @@ body {
   }
 
   .equipo {
-    min-height: 600px;
+    min-height: 500px;
     padding: 0;
     width: 601px;
     top: -10%;
