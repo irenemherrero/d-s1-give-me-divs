@@ -1,0 +1,109 @@
+.caracteristicas-grupo {
+  background-color: $color-fortalezasdebilidades;
+  padding: 0 20px 45px 20px;
+}
+
+@media all and (min-width: 768px) {
+  .caracteristicas-grupo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .caracteristicas-grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 200px 60px 200px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .triangulo {
+    position: absolute;
+    top: 0;
+    left: 366px;
+    transform: translate(-0%, -100%);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .triangulo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+  border-top: 18px solid white;
+  margin: 17px auto;
+  padding: 0;
+}
+
+@media all and (min-width: 768px) {
+  .título-f-d {
+    padding-top: 45px;
+    padding-bottom: 15px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .título-f-d {
+    margin-top: 0;
+  }
+}
+
+.título-f-d {
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .fortalezas {
+    flex-basis: 350px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .fortalezas {
+    margin-right: 22.5px;
+    flex-basis: 50%;
+  }
+}
+
+.texto-fortalezas {
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .debilidades {
+    padding-left: 30px;
+    flex-basis: 350px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .debilidades {
+    margin-left: 23px;
+    flex-basis: 50%;
+    padding-left: 0;
+  }
+}
+
+.texto-debilidades {
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
