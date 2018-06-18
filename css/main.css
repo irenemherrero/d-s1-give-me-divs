@@ -1,4 +1,4 @@
-@charset "UTF-8";/*colores de fondos*//* colores de fuentes*//*colores hover de iconos redes sociales*//* font family *//* line height */.nombre-de-grupo {
+@charset "UTF-8";/* colores de fondos *//* colores de fuentes *//* colores hover de iconos redes sociales *//* font family *//* line height */.nombre-de-grupo {
   color: #fff;
   font-family: "Rubik", serif;
   font-weight: 500;
@@ -30,7 +30,7 @@
 }
 
 .parrafo-fonts {
-  color: #54585A;
+  color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -51,21 +51,21 @@
 }
 
 .titlefooter {
-  color: #B8B8B9;
+  color: #b8b8b9;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
 .listfooter {
-  color: #54585A;
+  color: #54585a;
   font-family: "Rubik", serif;
   font-weight: 400;
   font-size: 14px;
 }
 
 .lab {
-  color: #54585A;
+  color: #54585a;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -143,6 +143,7 @@ body {
 .enlace-menu {
   color: #fff;
   text-decoration: none;
+  list-style: none;
   font-weight: 500;
 }
 
@@ -190,9 +191,40 @@ body {
 }
 
 .parrafo {
-  color: #54585A;
+  color: #54585a;
   line-height: 24px;
   text-align: center;
+}
+
+.caracteristicas-grupo {
+  background-color: #f1f1f1;
+  padding: 0 20px 45px 20px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 18px solid transparent;
+  border-left: 18px solid transparent;
+  border-top: 18px solid white;
+  margin: 17px auto;
+  padding: 0;
+}
+
+.título-f-d {
+  text-align: center;
+}
+
+.texto-fortalezas {
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.texto-debilidades {
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .seccion-quienes-somos {
@@ -295,7 +327,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #54585A;
+  border-top: 1px solid #54585a;
 }
 
 .titlefooter {
@@ -408,7 +440,7 @@ body {
 }
 
 .label {
-  color: #54585A;
+  color: #54585a;
   line-height: 19px;
   margin: 10px 0;
 }
@@ -513,6 +545,47 @@ body {
     -webkit-transform: translate(-10%, -96%);
     transform: translate(-10%, -96%);
     padding-top: 10px;
+  }
+
+  .caracteristicas-grupo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .triangulo {
+    position: absolute;
+    top: 0;
+    left: 366px;
+    -webkit-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+  }
+
+  .título-f-d {
+    padding-top: 45px;
+    padding-bottom: 15px;
+  }
+
+  .fortalezas {
+    -ms-flex-preferred-size: 350px;
+    flex-basis: 350px;
+  }
+
+  .debilidades {
+    padding-left: 30px;
+    -ms-flex-preferred-size: 350px;
+    flex-basis: 350px;
   }
 
   .wrapper {
@@ -719,6 +792,46 @@ body {
     transform: translate(-50%, 10%);
   }
 
+  .caracteristicas-grupo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 200px 60px 200px;
+  }
+
+  .triangulo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+  }
+
+  .título-f-d {
+    margin-top: 0;
+  }
+
+  .fortalezas {
+    margin-right: 22.5px;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .debilidades {
+    margin-left: 23px;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding-left: 0;
+  }
+
   .item4 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -775,7 +888,7 @@ body {
   }
 
   .label-mail,.label-telf {
-    color: #54585A;
+    color: #54585a;
     line-height: 19px;
     margin: 10px 0;
     width: 100%;
