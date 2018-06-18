@@ -335,7 +335,6 @@ body {
 }
 
 .listfooter {
-  color: #54585a;
   text-decoration: none;
   list-style: none;
   padding: 0;
@@ -345,10 +344,16 @@ body {
 
 .listfooter a {
   text-decoration: none;
+  color: #54585a;
 }
 
 .list li {
   margin-bottom: 6px;
+}
+
+.image-footer {
+  width: 116px;
+  height: 45px;
 }
 
 .container-contacto {
@@ -701,8 +706,6 @@ body {
     position: absolute;
     left: 45px;
     top: 55px;
-    width: 116px;
-    height: 45px;
     margin-bottom: 60px;
   }
 
@@ -872,6 +875,10 @@ body {
     width: 278px;
     margin-right: 45px;
     margin-left: 45px;
+  }
+
+  .footer {
+    position: relative;
   }
 
   .seccion-formulario {
