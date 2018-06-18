@@ -525,6 +525,12 @@ a {
   margin-bottom: 30px;
 }
 
+.boton-enviar:hover {
+  background-color: #fff;
+  border: 1px solid #00A193;
+  color: #00A193;
+}
+
 @media all and (min-width: 440px) {
   .container-foto .container-foto {
     height: 200px;
