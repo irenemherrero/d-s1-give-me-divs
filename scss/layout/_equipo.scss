@@ -1,7 +1,7 @@
 
 .container-foto {
   margin-top: 105px;
-  background: url("../images/foto-grupo2.jpg") no-repeat center center;
+  background: url("../images/foto1.png") no-repeat center center;
   background-size: cover;
   height: 157px;
   min-height: 200px;
@@ -17,6 +17,10 @@
     margin-top: 60px;
     width: 100%;
   }
+  @media all and (min-width: 850px) {
+    background-position: 0% 43%;
+    height: 450px;
+  }
   @media all and (min-width: 1000px) {
     background-position: 0% 43%;
     height: 450px;
@@ -24,7 +28,7 @@
 
   @media all and (min-width: 1200px) {
     background-position: 0% 43%;
-    height: 450px;
+    height: 550px;
   }
 }
 
@@ -52,6 +56,9 @@
     left: 10%;
     transform: translate(-10%, -96%);
     padding-top: 10px;
+  }
+  @media all and (min-width: 850px) {
+    top: 97%;
   }
   @media all and (min-width: 1000px) {
     top: 97%;

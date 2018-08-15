@@ -162,7 +162,7 @@ a {
 
 .container-foto {
   margin-top: 105px;
-  background: url("../images/foto-grupo2.jpg") no-repeat center center;
+  background: url("../images/foto1.png") no-repeat center center;
   background-size: cover;
   height: 157px;
   min-height: 200px;
@@ -795,6 +795,17 @@ a {
   }
 }
 
+@media all and (min-width: 850px) {
+  .container-foto {
+    background-position: 0% 43%;
+    height: 450px;
+  }
+
+  .citaFuente {
+    top: 97%;
+  }
+}
+
 @media all and (min-width: 1000px) {
   .container-foto {
     background-position: 0% 43%;
@@ -827,7 +838,7 @@ a {
 @media all and (min-width: 1200px) {
   .container-foto {
     background-position: 0% 43%;
-    height: 450px;
+    height: 550px;
   }
 
   .citaFuente {
