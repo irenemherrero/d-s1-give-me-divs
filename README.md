@@ -1,7 +1,9 @@
 Proyecto grupal - Sprint 1 - Give me divs
 -----
 
-Web con la información social de todos los miembros del equipo.
+Ejercicio realizado en el Sprint 1 del curso de Programación Front-End de Adalab por un grupo de 5 alumnas en el que se demustran los conocimientos adquiridos durante dicho periodo.
+
+El ejercicio consiste en reproducir una web con la información social de todos los miembros del equipo siguiendo un modelo dado.
 
 La web tiene dos páginas:
 
@@ -9,16 +11,11 @@ La web tiene dos páginas:
 
 - una página de contacto con un formulario para que puedan ponerse en contacto con vosotras
 
-
-
 Objetivos
 -----
 - Consolidar el aprendizaje de las tecnologías del sprint 1 (HTML, CSS, diseño responsive, GitHub pages, Sass, grid, gulp)
-
 - Utilizar control de versiones en equipo para aprender las ventajas y conflictos que genera
-
 - Mejorar la comunicación de quiénes sois y cómo os proyectáis como equipo
-
 - Mejorar vuestras habilidades de comunicación en público al exponer el proyecto en la sesión de retrospectiva
 
 Especificaciones
